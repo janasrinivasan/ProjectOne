@@ -1,0 +1,44 @@
+2015/10/31 15:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\EM_APP\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/EM_APP/index.php?r=gii
+---
+2015/10/31 15:24:02 [error] [php] include(banner.php): failed to open stream: No such file or directory (C:\xampp\htdocs\EM_APP\protected\views\site\index.php:88)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\EM_APP\protected\controllers\SiteController.php(10): SiteController->render()
+#4 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\EM_APP\index.php(13): CWebApplication->run()
+REQUEST_URI=/EM_APP/
+in C:\xampp\htdocs\EM_APP\protected\views\site\index.php (88)
+in C:\xampp\htdocs\EM_APP\protected\views\site\index.php (88)
+in C:\xampp\htdocs\EM_APP\protected\controllers\SiteController.php (10)
+2015/10/31 15:24:19 [error] [php] include(image_tap.php): failed to open stream: No such file or directory (C:\xampp\htdocs\EM_APP\protected\views\site\index.php:128)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\EM_APP\protected\controllers\SiteController.php(10): SiteController->render()
+#4 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\EM_APP\index.php(13): CWebApplication->run()
+REQUEST_URI=/EM_APP/
+in C:\xampp\htdocs\EM_APP\protected\views\site\index.php (128)
+in C:\xampp\htdocs\EM_APP\protected\views\site\index.php (128)
+in C:\xampp\htdocs\EM_APP\protected\controllers\SiteController.php (10)
